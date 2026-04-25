@@ -31,4 +31,5 @@ This project demonstrates the implementation of a SOHO network in a virtualized 
 This repository contains the implementation report and supporting configuration examples.
 
 ## Author
-Andronic Marius-Zaharia
+Student: Marius Zaharia Andronic
+Facultatea: Fiesc Calculatoare – dual
