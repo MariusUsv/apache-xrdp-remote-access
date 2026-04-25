@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Update package list
+sudo apt update
+
+# Install Apache, XRDP and Apache authentication utilities
+sudo apt install apache2 xrdp apache2-utils -y
+
+# Enable services at startup
+sudo systemctl enable apache2
+sudo systemctl enable xrdp
+
+# Start services
+sudo systemctl start apache2
+sudo systemctl start xrdp
+
+# Create web directories
+sudo mkdir -p /var/www/html/public
+sudo mkdir -p /var/www/html/secret
+sudo mkdir -p /var/www/html/admin
+
+# Create example web pages
+echo "<h1>Public OK</h1>" | sudo tee /var/www/html/public/index.html
+echo "<h1>Secret OK</h1>" | sudo tee /var/www/html/secret/index.html
+echo "<h1>Admin OK</h1>" | sudo tee /var/www/html/admin/index.html
+
+# Set permissions
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
+
+# Restart services
+sudo systemctl restart apache2
+sudo systemctl restart xrdp
+
+# Show status
+sudo systemctl status apache2 --no-pager
+sudo systemctl status xrdp --no-pager

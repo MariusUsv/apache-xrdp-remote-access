@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Checking Apache on port 8008..."
+ss -tlnp | grep 8008
+
+echo "Checking XRDP on port 3389..."
+ss -tlnp | grep 3389
+
+echo "Apache status:"
+systemctl status apache2 --no-pager
+
+echo "XRDP status:"
+systemctl status xrdp --no-pager
