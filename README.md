@@ -28,20 +28,20 @@ This project demonstrates the implementation of a SOHO network in a virtualized 
 - `scripts/`
 ## Screenshots
 
-### Apache running
-![Apache](screenshots/apache_service_running.png)
+### Apache Setup & Security
+![Apache Running](screenshots/apache/01_apache_service_running.png)
+![Port 8008](screenshots/apache/02_apache_ports_8008.png)
+![Default Page](screenshots/apache/03_apache_default_page.png)
+![403 Forbidden](screenshots/apache/04_apache_403_forbidden.png)
+![User Authentication](screenshots/apache/05_htpasswd_user_created.png)
 
-### Apache port 8008
-![Port](screenshots/apache_ports_8008.png)
+### Network Configuration
+![IP Configuration](screenshots/network/07_network_ip_config.png)
+![Routing Table](screenshots/network/08_ip_route_terminal.png)
 
-### Authentication
-![Login](screenshots/basic_auth_prompt.png)
-
-### Access denied (403)
-![403](screenshots/access_denied_403.png)
-
-### XRDP connection
-![RDP](screenshots/rdp_connection_success.png)
+### Remote Desktop (XRDP)
+![XRDP Service](screenshots/xrdp/09_xrdp_service_running.png)
+![Remote Connection](screenshots/xrdp/10_xrdp_remote_connection.png)
 
 ## Notes
 This repository contains the implementation report and supporting configuration examples.
