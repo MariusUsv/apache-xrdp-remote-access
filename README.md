@@ -170,8 +170,23 @@ This project demonstrates hands-on skills relevant for:
 * Linux system administration
 * DevOps internships
 * Infrastructure/backend roles
+## 🎯 Why This Project
 
+This project was built to demonstrate practical system administration skills, including:
+- configuring and securing web servers
+- managing remote access to Linux systems
+- understanding networking and access control
+
+It reflects real-world tasks commonly required in DevOps and system administration roles.
+## 🧠 Skills Demonstrated
+
+- Linux system administration
+- Apache configuration and security
+- Authentication mechanisms (.htpasswd)
+- Remote desktop setup (XRDP)
+- Basic networking (IP, routing)
 ---
+
 ## 👤 Author
 
 **Marius Zaharia Andronic**  
