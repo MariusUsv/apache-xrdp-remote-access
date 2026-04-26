@@ -172,8 +172,8 @@ This project demonstrates hands-on skills relevant for:
 * Infrastructure/backend roles
 
 ---
-
 ## 👤 Author
 
-**Marius Zaharia Andronic**
-Computer Dual Engineering Student
+**Marius Zaharia Andronic**  
+Computer Engineering (Dual) Student  
+Interested in Linux, DevOps, and Backend Systems
