@@ -176,4 +176,4 @@ This project demonstrates hands-on skills relevant for:
 
 **Marius Zaharia Andronic**  
 Computer Engineering (Dual) Student  
-Interested in Linux, DevOps, and Backend Systems
+
