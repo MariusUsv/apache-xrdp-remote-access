@@ -162,14 +162,6 @@ sudo systemctl start xrdp
 * XRDP connection functional ✔
 
 ---
-
-## 🎯 Purpose
-
-This project demonstrates hands-on skills relevant for:
-
-* Linux system administration
-* DevOps internships
-* Infrastructure/backend roles
 ## 🎯 Why This Project
 
 This project was built to demonstrate practical system administration skills, including:
